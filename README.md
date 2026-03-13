@@ -6,15 +6,16 @@ This repository packages a Claude Code workflow for turning LinkedIn signals int
 
 | File | What it does |
 |------|-------------|
-| `.agents/skills/linkedin-engagement-routing.md` | Runs the engagement to lead-list workflow with enrichment, validation, scoring, and routing gates. |
-| `.agents/skills/linkedin-ad-campaign-builder.md` | Builds LinkedIn campaigns from a config sheet and validates launch readiness before publish. |
-| `.agents/skills/outbound-campaign-builder.md` | Converts a scored company list into a live sequencer campaign with tiered routing logic. |
-| `.agents/skills/signal-loop-operator.md` | Closes the loop across content, outbound, and retargeting, then logs what improved. |
-| `docs/playbook/` | Full markdown source of the linked playbook hub and child workflow pages. |
-| `docs/templates/claude-starter-template.md` | Starter `CLAUDE.md` structure for project identity, tools, rules, and output standards. |
-| `docs/templates/icp-scoring-criteria-template.md` | Hard-threshold scoring template for Tier 1, Tier 2, Tier 3, and disqualifiers. |
-| `docs/templates/copy-framework-template.md` | Signal-triggered and automated sequence framework for email and ad copy. |
-| `tests/` | Prompt-based tests and validation checklists for each skill file. |
+| .agents/skills/SKILL.md | Orchestrator and routing logic |
+| .agents/skills/linkedin-engagement-routing.md | Runs the engagement to lead-list workflow with enrichment, validation, scoring, and routing gates. |
+| .agents/skills/linkedin-ad-campaign-builder.md | Builds LinkedIn campaigns from a config sheet and validates launch readiness before publish. |
+| .agents/skills/outbound-campaign-builder.md | Converts a scored company list into a live sequencer campaign with tiered routing logic. |
+| .agents/skills/signal-loop-operator.md | Closes the loop across content, outbound, and retargeting, then logs what improved. |
+| .agents/skills/linkedin-ad-audiences.md | Architecting high-intent ABM ad audiences using matched lists and exclusions. |
+| .agents/skills/linkedin-ad-bidding-optimization.md | Setting manual bidding floors, caps, and managing pacing based on performance. |
+| .agents/skills/linkedin-ad-measurement.md | Connecting Insight Tag data to downstream pipeline creation metrics. |
+| .agents/skills/linkedin-ad-creative-copy.md | Frameworks for structuring high-performing ad copy by funnel stage. |
+| ECOSYSTEM.md | Cross-repo connectivity map |
 
 ## Prerequisites
 
@@ -75,4 +76,5 @@ If this saves you time, star the repo and follow
 [Forma Nôrden on LinkedIn](https://www.linkedin.com/company/formanorden/).
 
 Built by [Forma Nôrden](https://formanorden.com/) - GTM engineering for B2B companies.
+
 
